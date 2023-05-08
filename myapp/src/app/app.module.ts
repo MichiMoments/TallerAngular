@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,7 +13,8 @@ import { CourseModule } from './course/course.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CourseModule
+    CourseModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
